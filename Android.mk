@@ -6,6 +6,8 @@ droid: ath6k-build
 
 linaro-supplement: ath6k-build
 
+systemtarball: ath6k-build
+
 ath6k-build:
 	cd device/samsung/proprietary-open && \
 	mkdir -p ../../../$(PRODUCT_OUT)/system/etc/firmware && \
