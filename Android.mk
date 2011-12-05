@@ -16,4 +16,4 @@ ath6k-build:
 bluetooth-build:
 	cd device/samsung/proprietary-open && \
 	mkdir -p ../../../$(PRODUCT_OUT)/system/etc/firmware && \
-	cp -R blueooth ../../../$(PRODUCT_OUT)/system/etc/firmware
+	cp -R bluetooth ../../../$(PRODUCT_OUT)/system/etc/firmware
